@@ -10,6 +10,15 @@ export interface IProduct{
     weight: string;
 }
 
+export interface IProductInput{
+    name: string;
+    imageUrl: string;
+    count: number;
+        height: number;
+        width: number;
+    weight: string;
+}
+
 export interface IProductDetails{
     _id: string;
     name:string;
